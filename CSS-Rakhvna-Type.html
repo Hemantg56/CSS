@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Rakhvana Reet</title>
+    <style>
+        /* CSS ne aapvana type */
+        /* 1.tag ni name thi h2 */
+        /* 2.class thi aapi sakay  */
+        /* 3.id thi aapi sakay  */
+        /* 4.class nu name end tag h2 thi aapi sakay */
+        /* 5.id nu name end tag h2 thi aapi sakay */
+        /* 6.class multipal class layi sakay exmple:- class="a b c" */
+        /* 7.(,)(coma) thi pan sake exaple:- class="g" css ma .g,t,o,c */
+        /* 8.universal simbole (*) but ama body and badha ne thay che */
+        /* 9.class nu name universal simbole (*) je tag ma class aapyu hoy e uder ma je aavtu hoy e ene kaam karse */
+        /*  */
+        /* 1. type block eliments Tag thi name thi aapi sakay */
+        
+        h1 {
+            height: 200px;
+            width: 200px;
+            background: gray;
+            color: white;
+            display: inline;
+        }
+        /*  */
+        /* 2. type inline eliments Tag thi name thi aapi sakay */
+        
+        b {
+            height: 200px;
+            width: 200px;
+            background: gray;
+            color: white;
+            display: block;
+        }
+        /*  */
+        /* 3. type ,(coma) thi class nu sathe Tag/class thi name thi aapi sakay */
+        /* .gp,
+        ul,
+        li,
+        span {
+            border: 3px solid red;
+        } */
+        /*  */
+        /*4. type (universal simbole)/(*) thi aapiye to body ma jetala pan componat hoy badha ma styale lagi jase aavi rite aapi sakay */
+        /* * {
+            border: 3px solid blue;
+        } */
+        /*  */
+        /* 5. type Tag thi name thi aapi sakay */
+        
+        h2 {
+            color: blue;
+        }
+        /*  */
+        /* 6. type class atribute & Tag thi name thi aapi sakay */
+        
+        .p h2 {
+            color: coral;
+        }
+        /*  */
+        /* 7. type id atribute & Tag thi name thi aapi sakay */
+        
+        #k {
+            color: coral;
+        }
+        /*  */
+        /* 8. type class/id value ne aagad universal symbol(*) to ena under je pan tag hoy ene kaam kare.  */
+        /* .main * {
+            border: 3px solid green;
+            padding: 20px;
+            display: block;
+            display: inline;
+            display: inline-block;
+        } */
+        
+        .main,
+        div,
+        ul,
+        li,
+        span {
+            border: 3px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Devendra
+    </h1>
+    <b> Devendra </b>
+    <div class="p">
+        <h2>parth</h2>
+    </div>
+
+    <div class="main">
+        <div class="gp">Grandparent
+            <ul type="none"> Parent
+                <li>Child
+                    <span>SPAN</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <h2>parth</h2>
+    </div>
+    <div>
+        <h2>parth</h2>
+    </div>
+    <div id="k">ritesh</div>
+    <div class="main">
+        <div class="ap">Grandparent
+            <ul type="none"> Parent
+                <li>Child
+                    <span>SPAN</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
